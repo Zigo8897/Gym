@@ -1,0 +1,504 @@
+
+/*start navbar     color: #ff5200;*/
+.navbar{
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.navbar .navbar-brand{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+.navbar .navbar-brand span{
+    color: #ff5200;
+}
+.navbar .navbar-nav .nav-link{
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 45px;
+}
+.navbar .navbar-nav .active>.nav-link{
+    color: #ff5200;
+}
+.navbar .navbar-nav .nav-link:hover{
+    color: #ff5200;
+}
+/*******************************/
+/*start slider*/
+.slider{
+    
+}
+.slider .carousel-inner{
+    position: relative;
+    display: flex;
+    align-items: center;
+    
+
+}
+.slider .carousel-inner  h1,
+.slider .carousel-inner   h5{
+    position: absolute;
+    display: inline-block;
+    color: white;
+    z-index: 4;
+}
+.slider .carousel-inner  h5{
+    font-size: 15px;
+    right: 350px;
+    top: 200px;
+}
+.slider .carousel-inner h1{
+    font-size: 42px;
+    right: 165px;
+    max-width: 320px;
+    top: 222px;
+}
+.slider .carousel-inner h1 span{
+    color: #ff5200;
+}
+.slider .carousel-inner button{
+    position: absolute;
+    right: 354px;
+    top: 350px;
+    z-index: 4;
+    background-color: #ff5200;
+    color: white;
+    border: 0;
+    padding: 5px 20px;
+    letter-spacing: 2px;
+    border-radius: 2px;
+}
+@media(max-width: 768px){
+    .slider .carousel-inner  h5{
+        right: 250px;
+    }
+    .slider .carousel-inner h1{
+        right: 65px;
+    }
+    .slider .carousel-inner button{
+        right: 252px;
+    }
+}
+.slider .carousel-inner .face{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,.4);
+    z-index: 2;
+}
+.slider .carousel-item{
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.slider .carousel-inner .one{
+    background: url(../photo/car2.jpg);
+}
+.slider .carousel-inner .two{
+    background: url(../photo/car1.jpeg);
+}
+.slider .carousel-inner .three{
+    background: url(../photo/car3.jpg);
+}
+.slider .carousel-control-prev,
+.slider .carousel-control-next{
+    z-index: 10;
+}
+.slider .carousel-control-prev-icon,
+.slider .carousel-control-next-icon{
+    background-color: rgb(243, 136, 6);
+    padding: 15px;
+}
+.slider .carousel-indicators .active{
+    background-color: #ff5200;
+}
+/*******************************/
+/*start forward*/
+.forward{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: black;
+}
+.forward h5{
+    font-size: 13px;
+    color:  #ff5200;
+}
+.forward .h1{
+    font-size: 30px;
+    letter-spacing: -2px;
+    word-spacing: 3px;
+    margin-bottom: 40px;
+    color: white;
+}
+.forward .fa{
+    width: 90px;
+    height: 90px;
+    background: rgba(41, 40, 40, 0.4);
+    color:  #ff5200;
+    padding-top: 30px;
+    border-radius: 50%;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+.forward h4{
+    font-size: 20px;
+    margin-top: 15px;
+    color: white
+}
+.forward p{
+    color: white;
+    font-size: 16px;
+    margin-top: 15px;
+}
+.forward .fa:hover{
+    background: #ff5200;
+    color: white;
+}
+/***************************/
+/*start offer*/
+.offer{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #101010;
+}
+.offer h5{
+    font-size: 15px;
+    color: #ff5200;
+}
+.offer .h1{
+    font-size: 25px;
+    color: white;
+    margin-bottom: 35px;
+}
+.offer .card{
+    background-color: black;
+    margin-bottom: 20px;
+    text-align: left;
+}
+.offer .card img{
+    height: 209px;
+}
+.offer .card h4{
+    font-size: 20px;
+    color: #ff5200;
+}
+.offer .card p{
+    color: white;
+}
+/*******************************/
+/*start contact us*/
+.contact-us{
+    background: url(../photo/can7.jpg) no-repeat;
+    height:460px;
+    position: relative;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.contact-us .h1{
+    padding-top: 170px;
+    color: white;
+}
+.contact-us h4{
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 25px;
+}
+.contact-us a{
+    text-decoration: none;
+    border: 2px solid #ff5200;
+    padding: 4px 14px;
+    border-radius: 2px;
+    color: white;
+    letter-spacing: 1px;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+.contact-us a:hover{
+    border-color: #ff5200;
+    background: #ff5200;
+    color: white;
+}
+/********************************8/
+/*start price*/
+.price{
+    padding-top: 40px;
+    padding-bottom: 60px;
+    background-color: black;
+}
+.price h3{
+    font-size: 17px;
+    color: #ff5200;
+    
+}
+.price .h1{
+    font-size: 28px;
+    margin-bottom: 50px;
+    color: white;
+}
+.price .card{
+    background-color: black;
+    margin-bottom: 15px;
+    border: 1px solid rgba(226, 221, 221, 0.125);
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+@media(max-width: 768px){
+    .price .card{
+        margin-left: 40px;
+    }
+}
+.price .card h5{
+    margin-bottom: 18px;
+    font-size: 20px;
+    color: white;
+}
+.price .card h4{
+    font-size: 35px;
+    margin-bottom: 0;
+    color: #ff5200;
+    
+}
+.price .card p{
+    font-size: 12px;
+    color: white;
+}
+.price .card .list-group-item{
+    border: 0;
+    color: white;
+    background: 0;
+}
+.price .card a{
+    color: white;
+    text-decoration: none;
+    background-color: #444343;
+    border: 0;
+    padding: 10px 60px;
+}
+.price .card:hover{
+    background: white;
+}
+.price .card:hover h5,
+.price .card:hover p,
+.price .card:hover .list-group-item{
+    color: black;
+}
+.price .card:hover a{
+    background-color: #ff5200;
+}
+/***********************************/
+/*start skills*/
+
+.skills img{
+    width: 460px;
+    height: 300px;
+}
+.skills .body{
+    position: absolute;
+    display: flex;
+    width: 460px;
+    height: 300px;
+    background: rgba(2,2,2,.7);
+    top: 0;
+    opacity: 0;
+}
+.skills .body .fa{
+    color: #ff5200;
+    position: absolute;
+    top: 120px;
+    left: 200px;
+}
+.skills .body:hover{
+    opacity: 1;
+}
+
+/****************************/
+/*start train*/
+.train {
+    position: relative;
+    padding-top: 40px;
+    padding-bottom: 90px;
+    background-color: black;
+}
+.train h5{
+    font-size: 15px;
+    color: #ff5200;
+}
+.train .h1{
+    font-size: 30px;
+    margin-bottom: 15px;
+    color: white;
+}
+.train a{
+    color: white;
+    text-decoration: none;
+    border: 1px solid #ff5200;
+    padding: 5px 25px;
+}
+@media(max-width: 768px){
+    .train h5,.train .h1{
+        text-align: center;
+    }
+    .train a{
+        margin-right: 100px;
+    }
+    .train img{
+        margin-top: 85px;
+        margin-left: 50px;
+    }
+    .train .cap{
+        margin-left: 50px;
+    }
+}
+.train img{
+    position: relative;
+    width: 255px;
+    height: 400px;
+}
+@media(max-width: 992px){
+    .train img{
+      margin-top: 85px;
+    } 
+}
+.train .cap{
+    position: absolute;
+    width: 255px;
+    color: white;
+    text-align: center;
+    background: black;
+}
+.train a:hover{
+    background: #ff5200;
+}
+/*******************************/
+/*start end*/
+.end{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: #060505;
+}
+.end .fa{
+    width: 90px;
+    height: 90px;
+    background: rgba(144, 141, 141, 0.4);
+    color:  #ff5200;
+    border-radius: 50%;
+    margin-left: 60px;
+    margin-right: 7px;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+@media(max-width: 768px){
+    .end .fa{
+        margin-bottom: 10px;
+    }
+}
+.end .info .fa{
+    padding-top: 24px;
+    padding-left: 30px;  
+}
+.end .tic .fa{
+    padding-top: 23px;
+    padding-left: 35px;  
+}
+.end .pop .fa{
+    padding-top: 28px;
+    padding-left: 30px;  
+}
+.end span{
+    color: white;
+}
+.end .fa:hover{
+    background: #ff5200;
+    color: white;
+}
+/*end end*/
+/***************************/
+/*start footer*/
+.footer{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: black;
+}
+.footer .gm .h1{
+    color: white;
+}
+.footer .gm .h1 span{
+    color: #ff5200;
+}
+.footer .gm p{
+    font-size: 14px;
+    line-height: 25px;
+    color: white;
+}
+.footer .gm ul{
+    display: flex;
+}
+.footer .gm ul li{
+    margin-right: 20px;
+}
+.footer .gm .fa{
+    color: white;
+}
+.footer h3{
+    font-size: 25px;
+    margin-top: 16px;
+    color: white;
+}
+.footer .ful  li,
+.footer .fulb  li{
+    margin-bottom: 10px;
+}
+.footer .ful  a,
+.footer .fulb  a{
+    color: white;
+    text-decoration: none;
+}
+.footer .tip p{
+    margin-bottom: 1px;
+    color: white;
+}
+.footer h5{
+    font-size: 10px;
+    margin-bottom: 47px;
+    color: #1b1a1a;
+}
+.footer .copy{
+    text-align: center;
+    padding-top: 30px;
+    color: #383737;
+}
+.footer .copy span{
+    color: #ff5200;
+}
+@media(max-width: 768px){
+    .footer .copy{
+        font-size: 14px;
+    }
+}
+/*end footer*/
+
+
+
+
+
+
+
+
+
+
+
